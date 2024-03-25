@@ -1,0 +1,332 @@
+body{
+    position: relative;
+    margin: 0;
+    background: rgb(14, 48, 90);
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+header{
+    position: fixed;
+    display: flex;
+    top: 0%;
+    background:rgba(255, 255, 255, 0.9);
+    width: 100%;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+}
+header h1{
+    font-size: 50px;
+    font-family: sans-serif;
+    color: rgb(14, 48, 90);
+}
+#dropdown{
+    position: fixed;
+    width:405px;
+    left: 44%;
+    top: 11%;
+    /* background: red; */
+}
+.select{
+    width: 200px;
+    height: 30px;
+}
+#spinner{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 22%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+#button{
+    position: relative;
+    width: 60px;
+    height: 60px;
+    color: #fff;
+    border-radius: 50%;
+    border-top-left-radius: 1px solid #fff;
+    background: transparent;
+    cursor: pointer;
+}
+#button::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+    background: rgba(18, 40, 128, 0.25);
+    transition: all 0.5s ease-out;
+    z-index: -1;
+
+}
+#button:active{
+    animation: button 0.80s infinite;
+    animation-iteration-count: 1;
+}
+@keyframes button {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+#image-container{
+    position: absolute;
+    display: flex;
+    background: rgba(88, 88, 88, 0.25);
+    top: 30%;
+    left: 20%;
+    width: 61.2%;
+    height: 25%;
+    max-width: 100vw;
+    overflow-x: scroll;
+    border: 2px solid white;
+}
+#image-container img{
+    width: 200px;
+    height: 98%;
+    margin: 0.1em;
+}
+#form-and-detail{
+    position: relative;
+    top: 60%;
+    left: 23%;
+    background: rgba(88, 88, 88, 0.25);
+    width: 55%;
+    height: 30%;
+    border: 2px solid white;
+}
+#movie-detail{
+    position: absolute;
+    display: flex;
+    /* background: rgba(88, 88, 88, 0.25); */
+    color: #fff;
+    top: 5%;
+    left: 27%;
+    width: 70%;
+    height: 90%;
+    /* border: 2px solid white; */
+}
+#movie-detail img{
+    position: absolute;
+    width: 200px;
+    height: 98%;
+    margin: 0.1em;
+}
+#movie-detail h3{
+    /* font-size: 20px; */
+    top: 0;
+    position: absolute;
+    left: 42%;
+}
+#movie-detail span{
+    position: absolute;
+    left: 42%;
+    top: 30%;
+}
+#movie-detail span button{
+    width: 20px;
+    height: 20px;
+}
+#movie-detail p{
+    position: absolute;
+    margin-right: 5px;
+    left: 42%;
+    top: 35%;
+}
+#form-container{
+    position: absolute;
+    display: flex;
+    /* background: rgb(88, 88, 88, 0.25); */
+    color: #fff;
+    top: 10%;
+    left: 3%;
+    width: 200px;
+    height: 80%;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* color: #063e91; */
+}
+form input{
+    width: 180px;
+    padding: 8px;
+    margin-top: 8px;
+    border-radius: 5px;
+    border-color: rgb(52, 52, 53);
+    background-color: rgba(88, 88, 88, 0.5);
+    color: #fff;
+}
+form p{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.dark-mode {
+    background: #222;
+    color: rgb(0, 0, 0);
+}
+.overlay{
+    position: fixed;
+    background: #000;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    top: 0;
+    left: 0;
+}
+#hide{
+    position: absolute;
+    top: 90%;
+    left: 23%;
+    color:#e6dcdc;
+    font-size: 12px;
+}
+#mode{
+    position: absolute;
+    top: 90%;
+    left: 68.2%;
+    color:#e6dcdc;
+    font-size: 12px;
+}
+
+@media only screen and (max-width: 430px){
+    body{
+        position: fixed;
+        height: 100%;
+        width: 100%;
+        /* overflow: hidden; */
+    }
+    header h1{
+        font-size: 30px;
+    }
+    #dropdown{
+        left: 23%;
+    }
+    #spinner{
+        left: 48%;
+    }
+    #image-container{
+        width: 300px;
+        height: 150px;
+        left: 11%;
+    }
+    #form-and-detail{
+        position: fixed;
+        width: 360px;
+        height: 250px;
+        left: 5.5%;
+        top: 50%;
+    }
+    #form-container{
+        /* background: #fff; */
+        width: 100px;
+        left: 1%;
+    }
+    #movie-detail{
+        /* background: #fff; */
+        width: 250px;
+        left: 30%;
+    }
+    #movie-detail img{
+        width: 100px;
+        height: 130px;
+    }
+    #movie-detail h3{
+        /* background: #fff; */
+        top: 0%;
+        width: 145px;
+        font-size: 14px;
+        left: 42%;
+    }
+    #movie-detail span{
+        /* background: #fff; */
+        top: 30%;
+        left: 42%;
+        font-size: 12px;
+    }
+    #movie-detail p{
+        /* background: #fff; */
+        width: 250px;
+        left: 0%;
+        top: 55%;
+        height: 100px;
+        font-size: 12px;
+    }
+    form{
+        position: absolute;
+        top: -10%;
+        font-size: 8px;
+    }
+    form input{
+        padding: 2px;
+        margin-top: 2px;
+        width: 80px;
+        height: 20px;
+
+    }
+    #submit{
+        position: absolute;
+        top: 105%;
+        left: 20%;
+        width: 50px;
+        height: 25px;
+    }
+    #hide{
+        display: none;
+    }
+    #mode{
+        display: none;
+    }
+    #movie-detail span button{
+        width: 15px;
+        height: 15px;
+        font-size: 10px;
+    }   
+}
+@media only screen and (max-width: 390px){
+    #dropdown{
+        top: 15%;
+    }
+    #image-container{
+        top: 35%;
+        left: 9%;
+    }
+    #form-and-detail{
+        position: fixed;
+        width: 340px;
+        top: 60%;
+        left: 4%;
+    }
+    #button{
+        position: fixed;
+        top: 25%;
+    }
+    #movie-detail p{
+        width: 240px;
+    }
+
+}
+@media only screen and (width: 360px){
+    #form-and-detail{
+        width: 340px;
+        top: 60%;
+        left: 2.3%;
+    }
+    #image-container{
+        top: 35%;
+        left: 8%;
+    }
+}
+
+  
+
+

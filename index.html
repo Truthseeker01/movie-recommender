@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Recommeder</title>
+</head>
+<link rel="stylesheet" type="text/css" href="./style.css">
+<script defer src="./index.js"></script>
+<body>
+    <p id="hide">Press "H" To Hide Everything<p>
+    <p id="mode">Press "D" To Toggle Dark Mode<p>
+    <div id="overlay"></div>
+    <header><h1>Movie Recommender</h1></header>
+    <div id="dropdown">
+        <select class="select" id="genre" name="genre" title="genre">Genre
+            <option>Choose genre</option>
+            <option value="All">All</option>
+            <option value="Action">Action</option>
+            <option value="Comedy">Comedy</option>
+            <option value="Sci-fi">Sci-Fi</option>
+            <option value="Drama">Drama</option>
+        </select>
+    </div>
+    <div id="spinner">
+    <button id="button">Filter</button>
+    </div>
+    <div id="image-container">
+        
+    </div>
+    <div id="form-and-detail">
+        <div id="movie-detail">
+            <h3>Dune: Part Two</h3>
+            <span>Rating: 8.8</span>
+            <p id="description">Paul Atreides unites with Chani and the Fremen while seeking revenge against the conspirators who destroyed his family.</p>
+            <img id="detail-img" alt="dark web" src="../phase-1-project/photos/action1.png">
+        </div>
+        <div id="form-container">
+            <form>
+                <p>Update Rating</p>
+                <label>NAME
+                    <input type="text" name="name" id="name" placeholder="Enter your name">
+                </label>
+                <label>NEW RATING
+                    <input type="number" id="new-rating" name="new-rating" min="5" max="9.9" step="0.1">
+                </label>
+                <input type="submit" id="submit" name="submit" > 
+            </form>
+        </div>
+    </div>
+</body>
+</html>
