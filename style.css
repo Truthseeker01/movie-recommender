@@ -198,6 +198,27 @@ form p{
     font-size: 12px;
 }
 
+@media only screen and (max-width: 1500px){
+    #form-and-detail{
+        width: 60%;
+        left: 20%;
+    }
+}
+
+@media only screen and (max-width: 1400px){
+    #form-and-detail{
+        width: 60%;
+        left: 20%;
+    }
+    form input{
+        width: 150px;
+    }
+    #submit{
+        left: -10%;
+    }
+}
+
+
 @media only screen and (max-width: 430px){
     body{
         position: fixed;
@@ -220,7 +241,11 @@ form p{
         left: 11%;
     }
     #form-and-detail{
-        position: fixed;
+        position: absolute;
+        /* display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; */
         width: 360px;
         height: 250px;
         left: 5.5%;

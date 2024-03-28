@@ -5,15 +5,17 @@ function handleclick(movie){
     document.getElementById("description").textContent = movie.description;
 }
 
-function displayMovies (link){
-    fetch(link)
+function displayMovies (){
+    fetch("http://localhost:3000/movies")
     .then(res => res.json())
-    .then(data => data.forEach(movie => {
+    .then(movies => movies.forEach(movie => {
         const image = document.createElement("img")
         image.src = movie.image
         document.getElementById("image-container").appendChild(image)
         image.addEventListener("click", () => handleclick(movie))
-    }))
+        
+    } , filterMoviesByGenre(movies)
+    ))
 }
 
 function handleSubmit(){
@@ -32,21 +34,34 @@ function handleSubmit(){
     });
 };
 
-function filterMoviesByGenre(){
+function handleFilter(movie){
+    const image = document.createElement("img")
+    image.src = movie.image
+    document.getElementById("image-container").appendChild(image)
+    image.addEventListener("click", () => handleclick(movie))
+}
+
+function filterMoviesByGenre(movies){
         const btn = document.getElementById("button");
         btn.addEventListener("click", () => {
             document.getElementById("image-container").textContent = "";
             let dropDownValue = document.getElementById("genre").value;
             if (dropDownValue === "Action"){
-                displayMovies("http://localhost:3000/action");
+                const actionMovies = movies.filter(movie => movie.genre === "action");
+                actionMovies.forEach(movie => handleFilter(movie));
             } else if (dropDownValue === "Comedy"){
-                displayMovies("http://localhost:3000/comedy");
+                const comedyMovies = movies.filter(movie => movie.genre === "comedy");
+                comedyMovies.forEach(movie => handleFilter(movie));
             } else if (dropDownValue === "Sci-fi"){
-                displayMovies("http://localhost:3000/sci-fi");
+                const scifiMovies = movies.filter(movie => movie.genre === "sci-fi");
+                scifiMovies.forEach(movie => handleFilter(movie));
             } else if (dropDownValue === "Drama"){
-                displayMovies("http://localhost:3000/drama");
+                const dramaMovies = movies.filter(movie => movie.genre === "drama");
+                dramaMovies.forEach(movie => handleFilter(movie));
             } else if (dropDownValue === "All"){
-                main();
+                movies.forEach(movie => handleFilter(movie));
+            } else if (dropDownValue === "Choose genre"){
+                movies.forEach(movie => handleFilter(movie));
             }
         })
 }
@@ -63,13 +78,10 @@ document.body.addEventListener("keydown", e => {
     }    
 })
 
-handleSubmit();
-filterMoviesByGenre();
+
 
 function main(){
-    displayMovies("http://localhost:3000/action");
-    displayMovies("http://localhost:3000/comedy");
-    displayMovies("http://localhost:3000/sci-fi");
-    displayMovies("http://localhost:3000/drama");  
+    displayMovies(); 
+    handleSubmit();
 }
 main();

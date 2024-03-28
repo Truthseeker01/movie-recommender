@@ -1,262 +1,292 @@
 {
-    "action": [
+    "movies": [
         {
             "id": "1",
             "title": "Dune: Part Two",
+            "genre": "action",
             "description":"Paul Atreides unites with Chani and the Fremen while seeking revenge against the conspirators who destroyed his family.",
             "rating": 8.8,
-            "image": "../phase-1-project/photos/action1.png"
+            "image": "./photos/action1.png"
         },
         {
             "id": "2",
             "title": "Napoleon",
+            "genre": "action",
             "description":"An epic that details the chequered rise and fall of French Emperor Napoleon Bonaparte and his relentless journey to power through the prism of his addictive, volatile relationship with his wife, Josephine.",
             "rating": 6.4,
-            "image": "../phase-1-project/photos/action2.png"
+            "image": "./photos/action2.png"
         },
         {
             "id": "3",
             "title": "The Creator",
+            "genre": "action",
             "description":"Against the backdrop of a war between humans and robots with artificial intelligence, a former soldier finds the secret weapon, a robot in the form of a young child.",
             "rating": 6.8,
-            "image": "../phase-1-project/photos/action3.png"
+            "image": "./photos/action3.png"
         },
         {
             "id": "4",
             "title": "The Hunger Games: The Ballad of Songbirds & Snakes",
+            "genre": "action",
             "description":"Coriolanus Snow mentors and develops feelings for the female District 12 tribute during the 10th Hunger Games.",
             "rating": 6.8,
-            "image": "../phase-1-project/photos/action4.png"
+            "image": "./photos/action4.png"
         },
         {
             "id": "5",
             "title": "Mission: Impossible - Dead Reckoning Part One",
+            "genre": "action",
             "description":"Ethan Hunt and his IMF team must track down a dangerous weapon before it falls into the wrong hands.",
             "rating": 7.7,
-            "image": "../phase-1-project/photos/action5.png"
+            "image": "./photos/action5.png"
         },  
         {
             "id": "6",
             "title": "Spider-Man: Across the Spider-Verse",
+            "genre": "action",
             "description":"Miles Morales catapults across the multiverse, where he encounters a team of Spider-People charged with protecting its very existence. When the heroes clash on how to handle a new threat, Miles must redefine what it means to be a hero.",
             "rating": 8.6,
-            "image": "../phase-1-project/photos/action6.png"
+            "image": "./photos/action6.png"
         },
         {
             "id": "7",
             "title": "John Wick: Chapter 4",
+            "genre": "action",
             "description":"John Wick uncovers a path to defeating The High Table. But before he can earn his freedom, Wick must face off against a new enemy with powerful alliances across the globe and forces that turn old friends into foes.",
             "rating": 7.7,
-            "image": "../phase-1-project/photos/action7.png"
+            "image": "./photos/action7.png"
         },
         {
             "id": "8",
             "title": "The Flash",
+            "genre": "action",
             "description":"Barry Allen uses his super speed to change the past, but his attempt to save his family creates a world without super heroes, forcing him to race for his life in order to save the future.",
             "rating": 6.7,
-            "image": "../phase-1-project/photos/action8.png"
+            "image": "./photos/action8.png"
         },
         {
             "id": "9",
             "title": "Guardians of the Galaxy Vol. 3",
+            "genre": "action",
             "description":"Still reeling from the loss of Gamora, Peter Quill rallies his team to defend the universe and one of their own - a mission that could mean the end of the Guardians if not successful.",
             "rating": 7.9,
-            "image": "../phase-1-project/photos/action9.png"
+            "image": "./photos/action9.png"
         },
         {
             "id": "10",
             "title": "Indiana Jones and the Dial of Destiny",
+            "genre": "action",
             "description":"Archaeologist Indiana Jones races against time to retrieve a legendary artifact that can change the course of history.",
             "rating": 6.5,
-            "image": "../phase-1-project/photos/action10.png"
-        }
-    ],
-    "comedy": [  
+            "image": "./photos/action10.png"
+        },
         {
             "id": "1",
             "title": "Poor Things",
+            "genre": "comedy",
             "description":"The incredible tale about the fantastical evolution of Bella Baxter, a young woman brought back to life by the brilliant and unorthodox scientist Dr. Godwin Baxter.",
             "rating": 8.0,
-            "image": "../phase-1-project/photos/comedy1.png"
+            "image": "./photos/comedy1.png"
         },
         {
             "id": "2",
             "title": "The Holdovers",
+            "genre": "comedy",
             "description":"A cranky history teacher at a prep school is forced to remain on campus over the holidays with a grieving cook and a troubled student who has no place to go.",
             "rating": 8.0,
-            "image": "../phase-1-project/photos/comedy2.png"
+            "image": "./photos/comedy2.png"
         },
         {
             "id": "3",
             "title": "Wonka",
+            "genre": "comedy",
             "description":"With dreams of opening a shop in a city renowned for its chocolate, a young and poor Willy Wonka discovers that the industry is run by a cartel of greedy chocolatiers.",
             "rating": 7.1,
-            "image": "../phase-1-project/photos/comedy3.png"
+            "image": "./photos/comedy3.png"
         },
         {
             "id": "4",
             "title": "Barbie",
+            "genre": "comedy",
             "description":"Barbie and Ken are having the time of their lives in the colorful and seemingly perfect world of Barbie Land. However, when they get a chance to go to the real world, they soon discover the joys and perils of living among humans.",
             "rating": 6.9,
-            "image": "../phase-1-project/photos/comedy4.png"
+            "image": "./photos/comedy4.png"
         },
         {
             "id": "5",
             "title": "12th Fail",
+            "genre": "comedy",
             "description":"The real-life story of IPS Officer Manoj Kumar Sharma and IRS Officer Shraddha Joshi.",
             "rating": 9.0,
-            "image": "../phase-1-project/photos/comedy5.png"
+            "image": "./photos/comedy5.png"
         },
         {
             "id": "6",
             "title": "Leave the World Behind",
+            "genre": "comedy",
             "description":"A family's getaway to a luxurious rental home takes an ominous turn when a cyberattack knocks out their devices, and two strangers appear at their door.",
             "rating": 6.5,
-            "image": "../phase-1-project/photos/comedy6.png"
-        }
-    ],
-    "sci-fi": [  
+            "image": "./photos/comedy6.png"
+        }, 
         {
             "id": "1",
             "title": "Everything Everywhere All at Once",
+            "genre": "sci-fi",
             "description":"A middle-aged Chinese immigrant is swept up into an insane adventure in which she alone can save existence by exploring other universes and connecting with the lives she could have led.",
             "rating": 7.8,
-            "image": "../phase-1-project/photos/sci-fi1.png"
+            "image": "./photos/sci-fi1.png"
         },
         {
             "id": "2",
             "title": "Avatar: The Way of Water",
+            "genre": "sci-fi",
             "description":"Jake Sully lives with his newfound family formed on the extrasolar moon Pandora. Once a familiar threat returns to finish what was previously started, Jake must work with Neytiri and the army of the Na'vi race to protect their home.",
             "rating": 7.6,
-            "image": "../phase-1-project/photos/sci-fi2.png"
+            "image": "./photos/sci-fi2.png"
         },
         {
             "id": "3",
             "title": "Nope",
+            "genre": "sci-fi",
             "description":"The residents of a lonely gulch in inland California bear witness to an uncanny and chilling discovery.",
             "rating": 6.8,
-            "image": "../phase-1-project/photos/sci-fi3.png"
+            "image": "./photos/sci-fi3.png"
         },
         {
             "id": "4",
             "title": "Thor: Love and Thunder",
+            "genre": "sci-fi",
             "description":"Thor enlists the help of Valkyrie, Korg and ex-girlfriend Jane Foster to fight Gorr the God Butcher, who intends to make the gods extinct.",
             "rating": 6.2,
-            "image": "../phase-1-project/photos/sci-fi4.png"
+            "image": "./photos/sci-fi4.png"
         },
         {
             "id": "5",
             "title": "Prey",
+            "genre": "sci-fi",
             "description":"Naru, a skilled warrior of the Comanche Nation, fights to protect her tribe against one of the first highly-evolved Predators to land on Earth.",
             "rating": 7.1,
-            "image": "../phase-1-project/photos/sci-fi5.png"
+            "image": "./photos/sci-fi5.png"
         },
         {
             "id": "6",
             "title": "Doctor Strange in the Multiverse of Madness",
+            "genre": "sci-fi",
             "description":"Doctor Strange teams up with a mysterious teenage girl from his dreams who can travel across multiverses, to battle multiple threats, including other-universe versions of himself, which threaten to wipe out millions across the multiverse. They seek help from Wanda the Scarlet Witch, Wong and others.",
             "rating": 6.9,
-            "image": "../phase-1-project/photos/sci-fi6.png"
+            "image": "./photos/sci-fi6.png"
         },
         {
             "id": "7",
             "title": "Ant-Man and the Wasp: Quantumania",
+            "genre": "sci-fi",
             "description":"Scott Lang and Hope Van Dyne are dragged into the Quantum Realm, along with Hope's parents and Scott's daughter Cassie. Together they must find a way to escape, but what secrets is Hope's mother hiding? And who is the mysterious Kang?",
             "rating": 6.1,
-            "image": "../phase-1-project/photos/sci-fi7.png"
+            "image": "./photos/sci-fi7.png"
         },
         {
             "id": "8",
             "title": "Black Panther: Wakanda Forever",
+            "genre": "sci-fi",
             "description":"The people of Wakanda fight to protect their home from intervening world powers as they mourn the death of King T'Challa.",
             "rating": 6.7,
-            "image": "../phase-1-project/photos/sci-fi8.png"
+            "image": "./photos/sci-fi8.png"
         },
         {
             "id": "9",
             "title": "M3GAN",
+            "genre": "sci-fi",
             "description":"A robotics engineer at a toy company builds a life-like doll that begins to take on a life of its own.",
             "rating": 6.4,
-            "image": "../phase-1-project/photos/sci-fi9.png"
+            "image": "./photos/sci-fi9.png"
         },
         {
             "id": "10",
             "title": "The Adam Project",
+            "genre": "sci-fi",
             "description":"After accidentally crash-landing in 2022, time-traveling fighter pilot Adam Reed teams up with his 12-year-old self for a mission to save the future.",
             "rating": 6.7,
-            "image": "../phase-1-project/photos/sci-fi10.png"
-        }
-    ],
-    "drama": [  
+            "image": "./photos/sci-fi10.png"
+        },  
         {
             "id": "1",
             "title": "Killers of the Flower Moon",
+            "genre": "drama",
             "description":"When oil is discovered in 1920s Oklahoma under Osage Nation land, the Osage people are murdered one by one - until the FBI steps in to unravel the mystery.",
             "rating": 7.6,
-            "image": "../phase-1-project/photos/drama1.png"
+            "image": "./photos/drama1.png"
         },
         {
             "id": "2",
             "title": "Past Lives",
+            "genre": "drama",
             "description":"Nora and Hae Sung, two deeply connected childhood friends, are wrested apart after Nora's family emigrates from South Korea. Twenty years later, they are reunited for one fateful week as they confront notions of love and destiny.",
             "rating": 7.9,
-            "image": "../phase-1-project/photos/drama2.png"
+            "image": "./photos/drama2.png"
         },
         {
             "id": "3",
             "title": "No Hard Feelings",
+            "genre": "drama",
             "description":"On the brink of losing her home, Maddie finds an intriguing job listing: helicopter parents looking for someone to bring their introverted 19-year-old son out of his shell before college. She has one summer to make him a man or die trying.",
             "rating": 6.4,
-            "image": "../phase-1-project/photos/drama3.png"
+            "image": "./photos/drama3.png"
         },
         {
             "id": "4",
             "title": "The Little Mermaid",
+            "genre": "drama",
             "description":"A young mermaid makes a deal with a sea witch to trade her beautiful voice for human legs so she can discover the world above water and impress a prince.",
             "rating": 7.2,
-            "image": "../phase-1-project/photos/drama4.png"
+            "image": "./photos/drama4.png"
         },
         {
             "id": "5",
             "title": "The Lost City",
+            "genre": "drama",
             "description":"A reclusive romance novelist on a book tour with her cover model gets swept up in a kidnapping attempt that lands them both in a cutthroat jungle adventure.",
             "rating": 6.1,
-            "image": "../phase-1-project/photos/drama5.png"
+            "image": "./photos/drama5.png"
         },
         {
             "id": "6",
             "title": "Where the Crawdads Sing",
+            "genre": "drama",
             "description":"A woman who raised herself in the marshes of the Deep South becomes a suspect in the murder of a man with whom she was once involved.",
             "rating": 7.2,
-            "image": "../phase-1-project/photos/drama6.png"
+            "image": "./photos/drama6.png"
         },
         {
             "id": "7",
             "title": "The French Dispatch",
+            "genre": "drama",
             "description":"A love letter to journalists set in an outpost of an American newspaper in a fictional twentieth century French city that brings to life a collection of stories published in 'The French Dispatch Magazine'.",
             "rating": 7.1,
-            "image": "../phase-1-project/photos/drama7.png"
+            "image": "./photos/drama7.png"
         },
         {
             "id": "8",
             "title": "Dil Bechara",
+            "genre": "drama",
             "description":"The emotional journey of two hopelessly-in-love youngsters; a young girl, Kizie, who is suffering from cancer; and Manny, a boy Kizie meets at a support group.",
             "rating": 8.3,
-            "image": "../phase-1-project/photos/drama8.png"
+            "image": "./photos/drama8.png"
         },
         {
             "id": "9",
             "title": "Palm Springs",
+            "genre": "drama",
             "description":"Stuck in a time loop, two wedding guests develop a budding romance while living the same day over and over again.",
             "rating": 7.4,
-            "image": "../phase-1-project/photos/drama9.png"
+            "image": "./photos/drama9.png"
         },
         {
             "id": "10",
             "title": "Licorice Pizza",
+            "genre": "drama",
             "description":"Stuck in a time loop, two wedding guests develop a budding romance while living the same day over and over again.",
             "rating": 7.1,
-            "image": "../phase-1-project/photos/drama10.png"
+            "image": "./photos/drama10.png"
         }
     ]
 }
